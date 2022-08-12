@@ -6,7 +6,7 @@ public class EmployeeWage {
     static final int PART_TIME__HOUR = 4;
     public static void main(String[] args) {
         System.out.println("Welcome to employee wage computation");
-        int empPresent = (int) (Math.floor(Math.random()*10) % 2);
+        int empPresent = (int) (Math.floor(Math.random()*10) % 3);
         int empWage = 0;
         if(empPresent == 2){
             empWage = WAGE_PER_HOUR * FULL_DAY_HOUR;
