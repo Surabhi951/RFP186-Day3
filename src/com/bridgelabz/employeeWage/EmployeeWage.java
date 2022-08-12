@@ -4,14 +4,12 @@ public class EmployeeWage {
     static final int WAGE_PER_HOUR = 20;
     static final int FULL_DAY_HOUR = 8;
     static final int PART_TIME__HOUR = 4;
-
     static final int IS_FULL_TIME = 2;
-
     static final int IS_PART_TIME = 1;
 
     public static void main(String[] args) {
         System.out.println("Welcome to employee wage computation");
-        int empPresent = (int) (Math.floor(Math.random()*10) % 2);
+        int empPresent = (int) (Math.floor(Math.random()*10) % 3);
         int empWage = 0;
 
         switch(empPresent){
